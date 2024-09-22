@@ -4,8 +4,13 @@ Este projeto realiza uma análise detalhada das regiões e municípios brasileir
 # Como a análise foi realizada
 A análise foi feita utilizando técnicas de estatística descritiva e análise de quartis, com base nos dados municipais. Os municípios foram classificados de acordo com o Índice de Desenvolvimento Humano Municipal (IDHM) e a quantidade de empresas do setor educacional (variável COMP_P).
 
+## Arquivos
+- analise_dataset.py: Código Python que automatiza a análise de dados, executável em qualquer ambiente Python.
+- Analise_dataset.ipynb: Jupyter Notebook interativo com a análise passo a passo e visualizações dos dados. Feito pelo google colab.
+- Cidades_brasil.csv: Arquivo com os dados originais do projeto, contendo informações como IDHM e COMP_P.
+
 ## Principais Conclusões:
-Nordeste e Norte são as regiões mais vulneráveis, com baixos índices de IDHM_Educacao e poucas empresas educacionais, o que indica a necessidade urgente de investimentos.
-Municípios com alta concentração de crianças (1-4 anos) e baixo desenvolvimento educacional foram priorizados para maximizar o impacto a longo prazo.
-Regiões com disparidades internas em educação, como o Centro-Oeste e Sudeste, necessitam de investimentos direcionados para equilibrar a qualidade educacional.
-Municípios com baixo desenvolvimento geral também foram identificados para um enfoque integrado em melhorias na educação e na qualidade de vida.
+- Nordeste e Norte são as regiões mais vulneráveis, com baixos índices de IDHM_Educacao e poucas empresas educacionais, o que indica a necessidade urgente de investimentos.
+- Municípios com alta concentração de crianças (1-4 anos) e baixo desenvolvimento educacional foram priorizados para maximizar o impacto a longo prazo.
+- Regiões com disparidades internas em educação, como o Centro-Oeste e Sudeste, necessitam de investimentos direcionados para equilibrar a qualidade educacional.
+- Municípios com baixo desenvolvimento geral também foram identificados para um enfoque integrado em melhorias na educação e na qualidade de vida.
